@@ -22,10 +22,7 @@
         <tr>
         <th>Code Postal </th>
         <td><?php echo htmlspecialchars(verification_postal($_POST["code_postal"])) ?></td>
-    </table>
-
-        
-
+</table>
 
 </body>
 </html>
@@ -50,11 +47,6 @@ function verification_email($mail){
             }
            
         }
-
-          
-
-
-
 
 function verification_tel ($num){
             
@@ -90,6 +82,5 @@ if (strlen($code_postal)==5 && (preg_match ('/[0-9]{5}/', $code_postal)))
     }
     }
 }
-    
-
+            
     ?>
