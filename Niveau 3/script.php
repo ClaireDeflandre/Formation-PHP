@@ -73,24 +73,6 @@ function verification_tel ($num){
         }
             
 
-
-
-/*
-function verification_postal (){
-            $string = $code;
-        
-            if ( preg_match ('@[0-9]@' && strlen($code)==5,$code))
-            {
-                return true;
-            }else{
-                return "Votre code postal est invalide.";
-            }
-}
-
-            echo verification_postal();
-*/
-
-
 function verification_postal ($code_postal){
 
     if (empty($_POST['code_postal'])){
